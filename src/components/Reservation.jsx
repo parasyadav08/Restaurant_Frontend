@@ -24,7 +24,7 @@ const Reservation = () => {
 
     try {
       const { data } = await axios.post(
-        "https://backenddata-pinchofspice.onrender.com/api/v1/reservation/send",
+        "https://restaurant-backend-yr08.onrender.com/api/v1/reservation/send",
         { 
           firstName, 
           LastName, // Ensure this is used correctly
